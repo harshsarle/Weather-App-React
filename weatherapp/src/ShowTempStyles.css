@@ -1,0 +1,106 @@
+.container1{
+color: white;
+
+               
+              
+}
+.a{
+               display: 
+               flex;
+               justify-content: center;
+               padding-top: 15px;
+}
+.b{
+               display: flex;
+               justify-content: center;
+               padding-top: 15px;
+}
+.c{
+               display: flex;
+               justify-content: center;
+               padding-top: 15px;
+}
+.w-card h2{
+               color: black;
+               font-size: 2rem;
+               font-weight: 800;
+}
+
+.w-card {
+               width: 32%;
+               text-align: start;
+               box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.11);
+               border-radius: 7px;
+               cursor: pointer;
+               padding: 1rem 0.8rem;
+               background-color: #87d9ed;
+               margin: 10px;
+               color: #fff;
+             }
+             .w-image {
+               height: 200px;
+               overflow: hidden;
+               border-radius: 7px;
+             }
+             .w-image img {
+               width: 100%;
+               height: 100%;
+               transition: 0.3s ease-in-out;
+               border-radius: 7px;
+             }
+             .btnn{
+               padding-top: 10px;
+             }
+
+             @media screen and (max-width: 850px) {
+               .container {
+                 margin: 4rem 2rem ;
+                 
+               }
+               .a {
+                 flex-direction: column;
+                 padding-left: 20px;
+                 width: auto;
+               
+                 align-items: center;
+                 
+                                 
+
+               
+               }
+               .b{
+                 flex-direction: column;
+                 padding-left: 20px;
+                 width: auto;
+                 align-items: center;
+                 
+               
+               
+                       }
+             .c{
+                 flex-direction: column;
+                 padding-left: 20px;
+                 width: auto;
+                 align-items: center;
+                 
+               
+                  }
+
+               .w-card {
+                 width: 100%;
+                 margin-bottom: 1.5rem;
+                 justify-items: center;
+                 align-items: center;
+                 justify-content: center;
+                 
+               }
+               .w-card h1 {
+                 font-size: 2.3rem;
+                 text-align: start;
+                 text-overflow: hidden;
+               }
+               .w-card h2 {
+                 text-align: start;
+                 font-weight: 500;
+               }
+             }
